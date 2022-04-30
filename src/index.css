@@ -6,19 +6,26 @@
 }
 
 .App {
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .box-container {
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
 }
 
 .box {
-  width: 25rem;
-  height: 25rem;
+  width: 10rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: aquamarine;
+}
+
+.boxItem {
+  background-color: #fff;
+  padding: 1rem;
+  list-style: none;
+  margin: 0.3rem;
 }
