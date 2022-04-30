@@ -3,6 +3,8 @@ import Box1 from './components/Box1/Box1'
 import Box2 from './components/Box2/Box2'
 import Box3 from './components/Box3/Box3'
 import BoxItems from './components/BoxItems/BoxItems'
+import Box4 from './components/Box4/Box4'
+import Box5 from './components/Box5/Box5'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Box2 />
       <Box3 />
       <BoxItems />
+      <Box4 />
+      <Box5 />
     </div>
   )
 }
